@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="numBill">Enter bill total</string>
+    <string name="numTax">Enter tax rate</string>
+    <string name="numTip">Enter tip percentage</string>
+    <string name="btnCalculate">Calcuate Total Bill</string>
+</resources>

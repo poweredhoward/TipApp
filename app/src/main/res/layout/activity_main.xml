@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.matth.firstapp.MainActivity">
+
+    <EditText
+        android:id="@+id/numBillTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/numBill"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/numBillTaxRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/numTax"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numBilllTipRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:hint="@string/numTip"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:onClick="btnCalculate_OnClick"
+        android:text="@string/btnCalculate"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="20sp" />"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/numTip"
+        android:inputType="number" />
+</LinearLayout>
